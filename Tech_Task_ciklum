@@ -1,0 +1,28 @@
+ubuntu@ip-172-31-17-171:~$ history 100
+    1  ls
+    2  sudo apt update
+    3  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    4  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    5  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+    6  sudo apt update
+    7  apt-cache policy docker-ce
+    8  sudo apt install docker-ce
+    9  sudo systemctl status docker
+   10  $ docker run -it --rm -d -p 8080:80 --name web nginx
+   11  docker run -it --rm -d -p 8080:80 --name web nginx
+   12  sudo docker run -it --rm -d -p 8080:80 --name web nginx
+   13  sudo docker ps
+   14  sudo docker exec -it web
+   15  sudo docker exec -it web /bin/bash
+   16  curl -v -XGET http://localhost
+   17  sudo curl -v -XGET http://localhost
+   18  sudo docker run -it --rm -d -p 80:80 --name web nginx
+   19  sudo docker run -it --rm -d -p 80:80 --name webs nginx
+   20  sudo docker ps
+   21  sudo curl -v -XGET http://localhost
+   22  sudo docker exec -it webs /bin/bash
+   23  sudo curl -v -XGET http://localhost
+   24  sudo docker restart webs
+   25  sudo curl -v -XGET http://localhost
+   26  git --version
+   27  history 100
