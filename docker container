@@ -1,0 +1,3 @@
+ubuntu@ip-172-31-17-171:~$ sudo docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                   NAMES
+857034b93d08   nginx     "/docker-entrypoint.…"   20 minutes ago   Up 15 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp       webs
